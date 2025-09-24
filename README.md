@@ -222,30 +222,6 @@ curl -X PUT https://your-api-url/api/v1/user \
 - **Financial alerts**: Account balance and transaction notifications
 - **Calendar reminders**: Meeting and event notifications
 
-## 🌟 Why Choose This Over Pushover?
-
-| Feature | AWS Pushover Clone | Pushover.net |
-|---------|-------------------|--------------|
-| **Cost** | $5-355/month for unlimited users | $5 per device, one-time |
-| **Customization** | Full control over UI/UX | Limited customization |
-| **Data Ownership** | Your AWS account | Third-party service |
-| **Scalability** | Unlimited auto-scaling | Service-dependent limits |
-| **Integration** | Direct AWS service integration | API-only |
-| **Branding** | Complete white-label solution | Pushover branding |
-| **Compliance** | Your compliance controls | Pushover's compliance |
-
-## 🔄 Migration from Pushover
-
-Switching from Pushover is straightforward:
-
-1. **Deploy this system** using the quick start guide
-2. **Export your Pushover data** (if possible via their API)
-3. **Update your applications** to use the new API endpoints
-4. **Import users** through the registration API
-5. **Test thoroughly** before switching production traffic
-
-The API is designed to be compatible with common notification patterns.
-
 ## 🤝 Contributing
 
 We welcome contributions! Here's how to get involved:
@@ -263,40 +239,11 @@ We welcome contributions! Here's how to get involved:
 4. **Push** to the branch (`git push origin feature/amazing-feature`)
 5. **Open** a Pull Request
 
-### Areas We Need Help
-- [ ] Mobile app development (iOS/Android)
-- [ ] Additional notification channels (Slack, Discord, Teams)
-- [ ] Terraform modules for different AWS regions
-- [ ] Performance optimization and monitoring
-- [ ] Security auditing and testing
-- [ ] Documentation and tutorials
-
-## 📈 Roadmap
-
-### Q1 2024
-- [ ] **Mobile Apps**: Native iOS and Android applications
-- [ ] **Webhook Support**: Incoming webhook endpoints
-- [ ] **Template System**: Notification templates and variables
-- [ ] **Advanced Analytics**: Usage analytics and reporting
-
-### Q2 2024
-- [ ] **Multi-Tenancy**: Support for multiple organizations
-- [ ] **SSO Integration**: SAML and OAuth provider support
-- [ ] **API Gateway v2**: HTTP API migration for better performance
-- [ ] **Global Deployment**: Multi-region deployment templates
-
-### Q3 2024
-- [ ] **Machine Learning**: Smart notification routing and scheduling
-- [ ] **Advanced Scheduling**: Cron-based notification scheduling
-- [ ] **Integration Hub**: Pre-built integrations with popular services
-- [ ] **Performance Optimization**: Advanced caching and CDN strategies
-
 ## 🆘 Support
 
 ### Community Support
-- **GitHub Issues**: [Report bugs and request features](https://github.com/your-username/aws-pushover-clone/issues)
-- **Discussions**: [Ask questions and share ideas](https://github.com/your-username/aws-pushover-clone/discussions)
-- **Discord**: [Join our community](https://discord.gg/your-server) for real-time help
+- **GitHub Issues**: [Report bugs and request features](https://github.com/HerreraCarlos81/terraform-aws-notifications/issues)
+- **Discussions**: [Ask questions and share ideas](https://github.com/HerreraCarlos81/terraform-aws-notifications/discussions)
 
 ### Documentation Resources
 - **AWS Documentation**: [Official AWS guides](https://docs.aws.amazon.com/)
@@ -305,8 +252,8 @@ We welcome contributions! Here's how to get involved:
 
 ### Professional Support
 For enterprise support, custom development, or consulting services:
-- 📧 Email: support@yourdomain.com
-- 🌐 Website: https://yourdomain.com/consulting
+- 📧 Email: carlos.herrera@codedneurons.com
+- 🌐 Website: https://codedneurons.com
 - 📅 Calendar: [Schedule a consultation](https://calendly.com/your-calendar)
 
 ## 📄 License
@@ -349,7 +296,7 @@ Thanks to all the amazing people who have contributed to this project!
 
 If this project helped you, please consider giving it a star! It helps others discover the project and motivates continued development.
 
-**[⭐ Star on GitHub](https://github.com/your-username/aws-pushover-clone)**
+**[⭐ Star on GitHub](https://github.com/HerreraCarlos81/terraform-aws-notifications)**
 
 ---
 
