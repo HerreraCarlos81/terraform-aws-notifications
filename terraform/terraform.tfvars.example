@@ -1,0 +1,25 @@
+# Example Terraform variables
+# Copy this file to terraform.tfvars and customize
+
+service_name = "my-notifications"
+environment = "dev"
+aws_region = "us-east-1"
+
+# Email configuration (required)
+sender_email = "notifications@yourdomain.com"
+
+# Optional: Custom domain (requires SSL certificate)
+# custom_domain = "notify.yourdomain.com"
+# ssl_certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/..."
+
+# Notification methods
+enable_email = true
+enable_sms = true
+enable_push = false
+
+# Message retention and rate limiting
+message_retention_days = 30
+rate_limit_per_user = 100
+
+# Enable API logging for debugging
+enable_api_logging = true
